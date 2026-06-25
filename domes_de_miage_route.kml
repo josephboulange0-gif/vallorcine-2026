@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Alpinisme : Ascension des Dômes de Miage (Aller-Retour)</name>
+    <description><![CDATA[
+      <h1>Ascension des Dômes de Miage (3670m)</h1>
+      <p>Itinéraire d'alpinisme classique en aller-retour depuis Les Contamines-Montjoie (Le Cugnon), avec descente en boucle par l'Aiguille de la Bérangère.</p>
+      <p><b>Sommet :</b> Dômes de Miage, Sommet Ouest (3670m)</p>
+      <p><b>Nuit conseillée :</b> Refuge des Conscrits (2602m)</p>
+    ]]></description>
+
+    <!-- Styles for Paths -->
+    <Style id="ascentRouteStyle">
+      <LineStyle>
+        <color>ff8000ff</color> <!-- Warm Purple (abgr: ff8000ff) -->
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="descentRouteStyle">
+      <LineStyle>
+        <color>ffffaa00</color> <!-- Cool Blue/Cyan (abgr: ffffaa00) -->
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <!-- Styles for Icons -->
+    <Style id="summitPlacemark">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="hutPlacemark">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="villagePlacemark">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- 1. Folder for Waypoints -->
+    <Folder>
+      <name>Points Clés de l'Itinéraire</name>
+      <Placemark>
+        <name>Le Cugnon (Les Contamines) (1180m)</name>
+        <description>Départ de la course. Hameau du Cugnon aux Contamines-Montjoie (~1180m).</description>
+        <styleUrl>#villagePlacemark</styleUrl>
+        <Point>
+          <coordinates>6.72808,45.81222,1180</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Refuge de Tré la Tête (1970m)</name>
+        <description>Refuge chaleureux (1970m) perché au-dessus de la vallée de Tré la Tête.</description>
+        <styleUrl>#hutPlacemark</styleUrl>
+        <Point>
+          <coordinates>6.73478,45.79175,1970</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Refuge des Conscrits (2602m)</name>
+        <description>Refuge du CAF (2602m) niché au pied des Dômes de Miage.</description>
+        <styleUrl>#hutPlacemark</styleUrl>
+        <Point>
+          <coordinates>6.766,45.7869,2602</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aiguille de la Bérangère (3425m)</name>
+        <description>Sommet rocheux et neigeux (3425m), fantastique belvédère de l'arête de Miage.</description>
+        <styleUrl>#summitPlacemark</styleUrl>
+        <Point>
+          <coordinates>6.77879,45.80277,3425</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dômes de Miage (Sommet W) (3670m)</name>
+        <description>Sommet occidental des Dômes de Miage (3670m), point culminant de notre montée.</description>
+        <styleUrl>#summitPlacemark</styleUrl>
+        <Point>
+          <coordinates>6.78979,45.81043,3670</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+
+    <!-- 2. Folder for Trails -->
+    <Folder>
+      <name>Tracés de l'Itinéraire</name>
+      <Placemark>
+        <name>1. Montée : Le Cugnon → Refuge de Tré la Tête</name>
+        <description><![CDATA[<b>Tronçon :</b> Première étape de la montée.<br/><b>Source :</b> OpenStreetMap, Juin 2026.<br/><b>Description :</b> Montée en forêt puis sur sentier dégagé depuis Le Cugnon jusqu'au Refuge de Tré la Tête (1970m).]]></description>
+        <styleUrl>#ascentRouteStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            6.727945,45.8120614,0 6.72833,45.8117651,0 6.7287753,45.8116221,0 6.7291796,45.8114637,0 6.7296477,45.8113132,0 6.7299312,45.8114594,0 6.7305233,45.8113146,0 6.7305416,45.8109917,0 6.7305808,45.8106486,0 6.7306625,45.8103491,0 6.7306996,45.8100106,0 6.7306138,45.8097638,0 6.7304099,45.8093974,0 6.7303134,45.809188,0 6.7304099,45.8089038,0 6.7305601,45.8086196,0 6.7306674,45.8082681,0 6.7310231,45.8079339,0 6.7313755,45.807625,0 6.7314704,45.8073914,0 6.7314935,45.8069668,0 6.731515,45.8068098,0 6.731515,45.8064657,0 6.7314184,45.806361,0 6.7314292,45.806017,0 6.7315686,45.8056879,0 6.7315043,45.8053028,0 6.7320943,45.8052897,0 6.7326522,45.8052579,0 6.7331029,45.805142,0 6.7336715,45.8049624,0 6.7342428,45.8049532,0 6.7345548,45.8048899,0 6.7350054,45.8047459,0 6.7352164,45.8045698,0 6.7357376,45.8045197,0 6.7359522,45.8044879,0 6.7364028,45.804673,0 6.7367721,45.8048951,0 6.7372657,45.8046409,0 6.73733,45.8044165,0 6.7375124,45.804065,0 6.7374328,45.8037568,0 6.737422,45.8033716,0 6.7374837,45.8032501,0 6.7376903,45.8028892,0 6.7375964,45.8026592,0 6.7373408,45.8022924,0 6.7372086,45.8021292,0 6.7368472,45.8016342,0 6.7364534,45.801333,0 6.7361391,45.8011181,0 6.7358924,45.8008264,0 6.7356223,45.8005668,0 6.7353809,45.8002676,0 6.7353004,45.7998376,0 6.7352253,45.7995645,0 6.7351395,45.7993551,0 6.7351824,45.7990821,0 6.7352682,45.7988764,0 6.7353326,45.7984482,0 6.7353559,45.7983131,0 6.7354954,45.7979765,0 6.7356134,45.7976474,0 6.7357966,45.7973823,0 6.7359353,45.7971687,0 6.7360426,45.7969293,0 6.7360748,45.79669,0 6.7362526,45.7962771,0 6.7365289,45.7960583,0 6.7363545,45.7957572,0 6.7361292,45.7954617,0 6.7357725,45.7951064,0 6.7354506,45.7947174,0 6.7353648,45.7945528,0 6.73522,45.7941339,0 6.7351381,45.7937318,0 6.7351113,45.7934326,0 6.7349732,45.7930436,0 6.7347559,45.7928547,0 6.7348659,45.7924208,0 6.7351073,45.7923862,0 6.7354701,45.7920145,0 6.7351214,45.7918341,0 6.73489,45.7917321,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>2. Montée : Refuge de Tré la Tête → Refuge des Conscrits</name>
+        <description><![CDATA[<b>Tronçon :</b> Deuxième étape de la montée (accès au refuge de haute montagne).<br/><b>Source :</b> OpenStreetMap, Juin 2026.<br/><b>Description :</b> Passage délicat du Mauvais Pas, puis cheminement le long de la moraine et du glacier de Tré la Tête jusqu'à la passerelle des Conscrits et le refuge (2602m).]]></description>
+        <styleUrl>#ascentRouteStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            6.73489,45.7917321,0 6.7351724,45.7916096,0 6.7357812,45.7915222,0 6.735924,45.7915348,0 6.7364994,45.791583,0 6.7369158,45.7916999,0 6.7374744,45.7918027,0 6.7378371,45.7918462,0 6.7382408,45.7918635,0 6.7388088,45.7918775,0 6.7392882,45.7916695,0 6.7398562,45.791554,0 6.7404979,45.7915325,0 6.7407849,45.7915708,0 6.7411852,45.7916218,0 6.7418014,45.7915844,0 6.7424351,45.7915161,0 6.7426939,45.7914885,0 6.7433236,45.7915185,0 6.7436857,45.7915512,0 6.7442865,45.7916297,0 6.7446804,45.7917596,0 6.7451783,45.7919294,0 6.7454754,45.7922834,0 6.7455029,45.7923376,0 6.7456792,45.7927668,0 6.7458736,45.7928626,0 6.7462175,45.7930476,0 6.746546,45.7932103,0 6.7468353,45.7932377,0 6.7473039,45.7934222,0 6.7478006,45.7935293,0 6.7483371,45.7937277,0 6.7488319,45.7937649,0 6.7494473,45.7938096,0 6.750037,45.7939717,0 6.7502921,45.7939757,0 6.7507401,45.7939678,0 6.7510993,45.7940628,0 6.7516713,45.7940797,0 6.7518815,45.7941026,0 6.7524384,45.7938992,0 6.7526825,45.7938316,0 6.7532726,45.7939376,0 6.7537969,45.7937019,0 6.7538492,45.7935401,0 6.7539793,45.7931895,0 6.7540263,45.7929323,0 6.753999,45.792556,0 6.7539811,45.7924317,0 6.7539031,45.7920921,0 6.7541731,45.7916961,0 6.7546204,45.7916185,0 6.7552346,45.7915213,0 6.755712,45.7914829,0 6.7559159,45.7914521,0 6.7563504,45.7913511,0 6.7565518,45.7912927,0 6.7571041,45.7911952,0 6.7572677,45.7911996,0 6.7577822,45.7910929,0 6.7576354,45.7906834,0 6.7572853,45.7903685,0 6.7572731,45.7903041,0 6.7567196,45.7901228,0 6.7565798,45.7899376,0 6.7563692,45.7896435,0 6.7561653,45.7893831,0 6.7558826,45.789005,0 6.755653,45.7888356,0 6.7553768,45.7885195,0 6.7553794,45.7881847,0 6.7553556,45.7877571,0 6.7555381,45.7875051,0 6.7556384,45.7871805,0 6.7555307,45.786884,0 6.7556664,45.7865369,0 6.75571,45.7861265,0 6.7560612,45.7857738,0 6.7564351,45.7856218,0 6.7569135,45.7853446,0 6.7570564,45.7851346,0 6.7572046,45.7849049,0 6.7576209,45.7846022,0 6.75795,45.7845752,0 6.7583938,45.7843924,0 6.7587147,45.7841017,0 6.7593027,45.7839796,0 6.7594958,45.7843762,0 6.7596396,45.7847165,0 6.7601311,45.7851602,0 6.7602989,45.7853845,0 6.7605715,45.7855503,0 6.7608302,45.7858135,0 6.7610872,45.7860618,0 6.7615133,45.7862215,0 6.7618669,45.786284,0 6.7622746,45.7863663,0 6.7625321,45.7865085,0 6.7628754,45.7866581,0 6.7631007,45.7867778,0 6.7636157,45.7868601,0 6.7639805,45.786905,0 6.7644337,45.7868975,0 6.7650273,45.7868545,0 6.7656557,45.7867891,0 6.7660193,45.7868819,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>3. Montée : Refuge des Conscrits → Dômes de Miage (Sommet W)</name>
+        <description><![CDATA[<b>Tronçon :</b> Ascension finale du Dôme.<br/><b>Source :</b> OpenStreetMap (tracé glaciaire), Juin 2026.<br/><b>Description :</b> Ascension glaciaire par le Glacier de Tré la Tête, franchissement du Col des Dômes (3564m) puis arête finale jusqu'au Sommet Ouest (3670m).]]></description>
+        <styleUrl>#ascentRouteStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            6.7660193,45.7868819,0 6.7658669,45.7873019,0 6.76606,45.7874983,0 6.7660833,45.7878925,0 6.7661396,45.7881974,0 6.7662764,45.7885359,0 6.7663193,45.7887005,0 6.7664677,45.7890843,0 6.7665321,45.7892732,0 6.7667118,45.7896099,0 6.7668432,45.7897389,0 6.7670685,45.7900456,0 6.7672455,45.7902757,0 6.7674386,45.7905899,0 6.7675513,45.7908891,0 6.7677444,45.7912688,0 6.7678624,45.7915269,0 6.7685008,45.7920057,0 6.7686456,45.7920562,0 6.7690292,45.7923629,0 6.769276,45.792621,0 6.7695815,45.7928978,0 6.7700297,45.7931577,0 6.7702818,45.7934681,0 6.7706788,45.7937524,0 6.7711669,45.7941302,0 6.7715102,45.7943396,0 6.7717838,45.7945753,0 6.7718697,45.7948446,0 6.7730576,45.7969671,0 6.7735863,45.7971859,0 6.774053,45.7976085,0 6.7745438,45.7982443,0 6.7748925,45.7987978,0 6.7757803,45.7998899,0 6.7770869,45.8003752,0 6.7775908,45.8004023,0 6.7780307,45.8005743,0 6.7784679,45.801384,0 6.7781809,45.8017112,0 6.7779663,45.8020646,0 6.7780709,45.8025022,0 6.7784545,45.802691,0 6.7788354,45.8030407,0 6.778881,45.8034539,0 6.7789158,45.8037288,0 6.7794228,45.8039737,0 6.7796263,45.8040299,0 6.7801094,45.8042261,0 6.780611,45.8043776,0 6.7811474,45.8045664,0 6.7813566,45.8046375,0 6.7816463,45.8048544,0 6.7822415,45.8054266,0 6.7827272,45.8059669,0 6.7833441,45.8065353,0 6.7841756,45.8068494,0 6.7849481,45.8071336,0 6.7853397,45.8074851,0 6.7860824,45.8081189,0 6.7867369,45.8089266,0 6.7879736,45.8093959,0 6.7884511,45.8097474,0 6.7891592,45.8101101,0 6.7896742,45.8101849,0 6.7899156,45.8104279,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>4. Descente : Dômes de Miage → Aiguille de la Bérangère</name>
+        <description><![CDATA[<b>Tronçon :</b> Début de la descente en boucle.<br/><b>Source :</b> OpenStreetMap, Juin 2026.<br/><b>Description :</b> Descente très esthétique le long de l'arête reliant le sommet Ouest des Dômes de Miage à l'Aiguille de la Bérangère (3425m).]]></description>
+        <styleUrl>#descentRouteStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            6.7899156,45.8104279,0 6.7896742,45.8101849,0 6.7891592,45.8101101,0 6.7884511,45.8097474,0 6.7879736,45.8093959,0 6.7867369,45.8089266,0 6.7860824,45.8081189,0 6.7853397,45.8074851,0 6.7849481,45.8071336,0 6.7841756,45.8068494,0 6.7833441,45.8065353,0 6.7827272,45.8059669,0 6.7822415,45.8054266,0 6.7816463,45.8048544,0 6.7813566,45.8046375,0 6.7811474,45.8045664,0 6.780611,45.8043776,0 6.7801094,45.8042261,0 6.7796263,45.8040299,0 6.7794228,45.8039737,0 6.7789158,45.8037288,0 6.778881,45.8034539,0 6.7788354,45.8030407,0 6.7787359,45.8027397,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>5. Descente : Aiguille de la Bérangère → Refuge des Conscrits</name>
+        <description><![CDATA[<b>Tronçon :</b> Retour au refuge.<br/><b>Source :</b> OpenStreetMap, Juin 2026.<br/><b>Description :</b> Descente de l'Aiguille de la Bérangère par son flanc Sud-Ouest pour rejoindre le refuge des Conscrits.]]></description>
+        <styleUrl>#descentRouteStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            6.7787359,45.8027397,0 6.778374,45.8026237,0 6.7780709,45.8025022,0 6.7779663,45.8020646,0 6.7781809,45.8017112,0 6.7784679,45.801384,0 6.7780307,45.8005743,0 6.7775908,45.8004023,0 6.7770869,45.8003752,0 6.7757803,45.7998899,0 6.7748925,45.7987978,0 6.7745438,45.7982443,0 6.774053,45.7976085,0 6.7735863,45.7971859,0 6.7730576,45.7969671,0 6.7718697,45.7948446,0 6.7717838,45.7945753,0 6.7715102,45.7943396,0 6.7711669,45.7941302,0 6.7706788,45.7937524,0 6.7702818,45.7934681,0 6.7700297,45.7931577,0 6.7695815,45.7928978,0 6.769276,45.792621,0 6.7690292,45.7923629,0 6.7686456,45.7920562,0 6.7685008,45.7920057,0 6.7678624,45.7915269,0 6.7677444,45.7912688,0 6.7675513,45.7908891,0 6.7674386,45.7905899,0 6.7672455,45.7902757,0 6.7670685,45.7900456,0 6.7668432,45.7897389,0 6.7667118,45.7896099,0 6.7665321,45.7892732,0 6.7664677,45.7890843,0 6.7663193,45.7887005,0 6.7662764,45.7885359,0 6.7661396,45.7881974,0 6.7660833,45.7878925,0 6.76606,45.7874983,0 6.7658669,45.7873019,0 6.7660193,45.7868819,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
