@@ -164,6 +164,15 @@ function App() {
                     <div className="mini-spec"><strong>Chalet ↔ Sommet</strong>Tracé</div>
                   </div>
 
+                  <div className="alpine-resources" style={{ padding: '16px', borderRadius: '8px', border: '1px solid var(--sand-line)', margin: '16px 0', background: 'var(--paper-cream)' }}>
+                    <h5 className="resource-title" style={{ margin: '0 0 12px 0' }}>📖 Topographie Camptocamp</h5>
+                    <div className="resource-links-grid">
+                      <a href="https://www.camptocamp.org/routes/56579/fr/le-buet-par-le-vallon-de-berard-voie-normale-ete-" target="_blank" rel="noopener noreferrer" className="btn-resource-c2c full-width-btn">
+                        🧗 Topo Voie Normale d'Été (par le Vallon de Bérard)
+                      </a>
+                    </div>
+                  </div>
+
                   <div className="timeline-trail">
                     <div className="trail-step">
                       <span className="trail-time">08h30</span>
@@ -256,10 +265,13 @@ function App() {
                     </div>
 
                     <div className="alpine-resources">
-                      <h5 className="resource-title">📖 Topographie Camptocamp</h5>
+                      <h5 className="resource-title">📖 Topographies Camptocamp</h5>
                       <div className="resource-links-grid">
-                        <a href="https://www.camptocamp.org/routes/53774/fr/aiguille-du-tour-sommet-s-par-le-col-superieur-du-tour-voie-normale-" target="_blank" rel="noopener noreferrer" className="btn-resource-c2c" style={{ gridColumn: '1 / -1' }}>
-                          🧗 Topo Camptocamp (Voie Normale par le Col Supérieur)
+                        <a href="https://www.camptocamp.org/routes/45184/fr/aiguille-du-tour-depuis-trient" target="_blank" rel="noopener noreferrer" className="btn-resource-c2c">
+                          🧗 Topo Montée (Depuis Trient par Pissoir)
+                        </a>
+                        <a href="https://www.camptocamp.org/routes/53774/fr/aiguille-du-tour-sommet-s-par-le-col-superieur-du-tour-voie-normale-" target="_blank" rel="noopener noreferrer" className="btn-resource-c2c">
+                          🧗 Topo Descente (Voie Normale - Albert 1ᵉʳ)
                         </a>
                       </div>
                     </div>
@@ -469,8 +481,11 @@ function App() {
                         <a href="https://www.camptocamp.org/routes/46054/fr/domes-de-miage-par-le-glacier-de-tre-la-tete-et-le-col-des-domes-voie-normale-" target="_blank" rel="noopener noreferrer" className="btn-resource-c2c">
                           🧗 Topo Voie Normale
                         </a>
-                        <a href="https://www.camptocamp.org/routes/47927/fr/domes-de-miage-traversee-des-domes-armancette" target="_blank" rel="noopener noreferrer" className="btn-resource-c2c" style={{ gridColumn: '1 / -1' }}>
+                        <a href="https://www.camptocamp.org/routes/47927/fr/domes-de-miage-traversee-des-domes-armancette" target="_blank" rel="noopener noreferrer" className="btn-resource-c2c">
                           🧗 Topo Traversée Armancette
+                        </a>
+                        <a href="https://www.camptocamp.org/routes/47985/fr/aiguille-de-la-berangere-aller-retour-des-conscrits" target="_blank" rel="noopener noreferrer" className="btn-resource-c2c">
+                          🧗 Topo Aiguille de la Bérangère
                         </a>
                       </div>
                     </div>
